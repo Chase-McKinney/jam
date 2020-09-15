@@ -1,0 +1,71 @@
+/*global styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+#sacrafice {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    left: 0;
+    line-height: 200px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sacrafice:hover {
+    background-color: red;
+    color: white;
+    left: 0;
+    line-height: 200px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {left: 0;
+    line-height: 200px;
+    margin-top: -300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    ;
+}
+
+h2 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -200px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
